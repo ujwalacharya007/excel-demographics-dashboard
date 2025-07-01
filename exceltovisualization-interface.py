@@ -14,7 +14,7 @@ Upload an Excel file extracted from OCR data. This app will help visualize key d
 """)
 
 # Upload Excel file
-uploaded_file = st.file_uploader("📤 Upload Excel File (e.g., from 'rupandehi-3.xlsx')", type=["xlsx"])
+uploaded_file = st.file_uploader("📤 Upload Excel File ", type=["xlsx"])
 
 def convert_to_nepali_number(num):
     eng = '0123456789'
